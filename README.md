@@ -28,3 +28,5 @@ Deploy to goerli network using `Deployment.ts` script:
 ```shell
 yarn hardhat --network goerli run scripts/Deployment.ts
 ```
+
+Sample contract: `https://goerli.etherscan.io/address/0x7bcb7a284aa1f41e4020782d10cec21aae1cd117`
