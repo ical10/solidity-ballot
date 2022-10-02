@@ -11,3 +11,20 @@ REPORT_GAS=true npx hardhat test
 npx hardhat node
 npx hardhat run scripts/deploy.ts
 ```
+
+# Hardhat Config Setup
+
+Install dotenv
+
+```shell
+yarn add dotenv
+```
+
+Create `.env` file. The template is in `.env-template`
+NOTE: DO NOT MODIFY `hardhat.config.ts`
+
+Deploy to goerli network using `Deployment.ts` script:
+
+```shell
+yarn hardhat --network goerli run scripts/Deployment.ts
+```
