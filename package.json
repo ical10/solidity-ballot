@@ -1,5 +1,5 @@
 {
-  "name": "encode-lesson7",
+  "name": "solidity-ballot",
   "packageManager": "yarn@3.2.3",
   "devDependencies": {
     "@ethersproject/abi": "^5.4.7",
