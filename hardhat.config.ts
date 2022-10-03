@@ -14,6 +14,16 @@ if (!mnemonic) {
   throw new Error("Please set your MNEMONIC in a .env file");
 }
 
+const privateKey1: string | undefined = process.env.PRIVATE_KEY_1;
+if (!privateKey1) {
+  throw new Error("Please set your PRIVATE_KEY_1 in a .env file");
+}
+
+const privateKey2: string | undefined = process.env.PRIVATE_KEY_2;
+if (!privateKey2) {
+  throw new Error("Please set your PRIVATE_KEY_2 in a .env file");
+}
+
 const infuraApiKey: string | undefined = process.env.INFURA_API_KEY;
 if (!infuraApiKey) {
   throw new Error("Please set your INFURA_API_KEY in a .env file");
